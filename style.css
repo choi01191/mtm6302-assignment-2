@@ -1,0 +1,52 @@
+html {
+
+    width: 100vw
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+p {
+    font-size: 1.5rem;
+}
+
+#gallery {
+    background-color: blanchedalmond;
+    margin: 0 auto;
+    width: calc(100vw - 10ex);
+    box-sizing: border-box;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 7px black dotted
+}
+
+@media (min-width:825px) {
+    span {
+        font-size: 8rem;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        border: 10px black dotted
+    }
+}
