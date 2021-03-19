@@ -19,7 +19,13 @@ p {
     font-size: 1.5rem;
 }
 
+img {
+    display: block;
+    width: 50%
+}
+
 #gallery {
+    grid-gap: 15px;
     background-color: blanchedalmond;
     margin: 0 auto;
     width: calc(100vw - 10ex);
