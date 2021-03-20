@@ -3,6 +3,16 @@ html {
     width: 100vw
 }
 
+button {
+    display: block;
+    font-size: 30px;
+    margin: 0 auto
+}
+
+.hide {
+    display: none
+}
+
 body {
     width: 100vw;
     overflow-x: hidden;
@@ -25,6 +35,8 @@ img {
 }
 
 #gallery {
+
+    display: none;
     grid-gap: 15px;
     background-color: blanchedalmond;
     margin: 0 auto;
